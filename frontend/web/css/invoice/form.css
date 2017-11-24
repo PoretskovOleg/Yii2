@@ -1,0 +1,119 @@
+.input-contractor {
+    float: none;
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+.modal-superlg {
+    width: 90%;
+}
+
+table.table-contractors thead tr th {
+    border: 1px solid black;
+}
+
+table.table-contractors thead tr {
+    border-top: 1px solid black;
+}
+
+table.table-contractors tbody tr td.select-button {
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.table-contractors tbody tr td.contractor-info {
+    text-align: right;
+    vertical-align: middle;
+}
+
+table.contractors-info {
+    width: 100%;
+    table-layout: fixed;
+}
+
+table.contractors-info td {
+    border: 1px solid black;
+    border-bottom: none;
+    padding: 2px;
+}
+
+table.contractors-info td.radio-input {
+    text-align: center;
+}
+
+table.contractors-info tr:first-child td {
+    border-top: none;
+}
+
+table.contractors-info tr td:first-child{
+    border-left: none;
+}
+
+table.contractors-info tr td:last-child{
+    border-right: none;
+}
+
+table tr td.container-contractors-info {
+    padding: 0;
+}
+
+table.contractors-info tr.organization td {
+    background-color: darkseagreen;
+}
+
+table.contractors-info tr.individual td {
+    background-color: orange;
+}
+
+table.contractors-info tr.contact-person td {
+    background-color: lightblue;
+}
+
+table thead tr.contractor > th,
+table tbody tr.contractor > td {
+    border: 1px solid black;
+    border-bottom: 3px solid black;
+}
+
+table thead tr.contractor {
+    border-bottom: 3px solid black;
+}
+
+table.table-contractors.table-striped > tbody > tr:nth-of-type(even) {
+    background-color: #dedede;
+}
+
+span.keyword {
+    background-color: yellow;
+}
+
+div.control-container {
+    text-align: center;
+}
+
+.editable {
+    border-bottom: 2px solid #b9b9b9;
+    cursor: text;
+}
+
+table.data-table {
+    text-align: center;
+}
+
+table.data-table th {
+    text-align: center;
+}
+
+table.data-table input {
+    width: 100%;
+    height: 100%;
+}
+
+table.table-centered {
+    text-align: center;
+}
+
+table.table-centered th {
+    text-align: center;
+}

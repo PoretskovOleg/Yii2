@@ -1,0 +1,192 @@
+.red-text {
+    color: red;
+}
+.red {
+    text-align: center;
+    margin: 2px;
+    color: white;
+    background-color: rgb(200, 0, 0);
+    border-radius: 5px;
+}
+.green {
+    text-align: center;
+    margin: 2px;
+    color: white;
+    background-color: rgb(0, 200, 0);
+    border-radius: 5px;
+}
+.yellow {
+    text-align: center;
+    margin: 2px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+.blue {
+    text-align: center;
+    margin: 2px;
+    background-color: rgb(50, 100, 255);
+    color: white;
+    border-radius: 5px;
+}
+.pink {
+    text-align: center;
+    margin: 2px;
+    background-color: pink;
+    border-radius: 5px;
+}
+.grey {
+    text-align: center;
+    margin: 2px;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+.brown {
+    text-align: center;
+    margin: 2px;
+    background-color: rgb(128, 41, 0);
+    color: white;
+    border-radius: 5px;
+}
+.orange {
+    text-align: center;
+    margin: 2px;
+    background-color: #ff851b;
+    color: white;
+    border-radius: 5px;
+}
+.purple {
+    text-align: center;
+    margin: 2px;
+    background-color: #605ca8;
+    color: white;
+    border-radius: 5px;
+}
+.teal {
+    text-align: center;
+    margin: 2px;
+    background-color: #39cccc;
+    color: white;
+    border-radius: 5px;
+}
+.production-order-search .number-product-order,
+.production-order-search .number-order {
+    width: 170px;
+}
+.production-order-search .name-good {
+    width: 560px;
+}
+.production-order-search .buttons {
+    width: 175px;
+    margin-top: 10px;
+}
+.production-order-search .box-body input[type="checkbox"],
+.production-order-search .box-body input[type="radio"] {
+    margin-top: 0;
+    vertical-align: -3px;
+}
+.production-order-search .box-body div#priority label,
+.production-order-search .box-body div#target label,
+.production-order-search .box-body div#theme label,
+.production-order-search .box-body div#typeGood label,
+.production-order-search .box-body div#typeOrder label,
+.production-order-search .box-body div#responsible label,
+.production-order-search .box-body div#otk label,
+.production-order-search .box-body div#status label,
+.production-order-search .box-body div#stage label,
+.production-order-search .box-body div#typeSort label {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.production-order-search .box-body>div:nth-child(1) {
+    min-width: 95px;
+    padding-right: 0;
+    padding-left: 5px;
+    height: 250px;
+}
+.production-order-search .box-body>div:nth-child(2) {
+    min-width: 95px;
+    padding-right: 0;
+    padding-left: 0px;
+    height: 250px;
+}
+.production-order-search .box-body>div:nth-child(3) {
+    min-width: 120px;
+    padding-right: 0;
+    padding-left: 0px;
+    height: 250px;
+}
+.production-order-search .box-body>div:nth-child(4) {
+    min-width: 115px;
+    padding-right: 0;
+    padding-left: 0px;
+    height: 250px;
+    overflow: auto;
+}
+.production-order-search .box-body>div:nth-child(5),
+.production-order-search .box-body>div:nth-child(6) {
+    min-width: 115px;
+    padding-right: 0;
+    padding-left: 0px;
+    height: 250px;
+    overflow: auto;
+}
+.production-order-search .box-body>div:nth-child(7) {
+    min-width: 100px;
+    padding-right: 0;
+    padding-left: 0px;
+    height: 250px;
+    overflow: auto;
+}
+.production-order-search .box-body>div:nth-child(8) {
+    min-width: 100px;
+    padding-right: 0;
+    padding-left: 0px;
+    height: 250px;
+}
+.production-order-search .box-body>div:nth-child(9) {
+    min-width: 110px;
+    padding-right: 0;
+    padding-left: 0px;
+    height: 250px;
+}
+.production-order-search .box-body>div:nth-child(10) {
+    min-width: 95px;
+    padding-right: 0;
+    padding-left: 5px;
+    height: 250px;
+}
+.production-order-search .box-body>div:nth-child(9) div {
+    margin: 2px;    
+}
+.production-order-search .box-body>div:nth-child(9) input {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.production-order-search .box-body>div:nth-child(9) span {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.production-order-form label[for="orderNumber"]:after {
+    content: " *";
+    color: red;
+}
+.production-order-form #another label:after {
+    content: " *";
+    color: red;
+}
+.production-order-form .buttons button,
+.production-order-form .buttons a {
+    width: 130px;
+}
+
+.production-order-index .see-comment {
+    color: blue;
+}
+.production-order-index .see-comment:hover {
+    cursor: pointer;
+}
+.production-order-form #stagesOrder label {
+    margin-right: 50px;
+}

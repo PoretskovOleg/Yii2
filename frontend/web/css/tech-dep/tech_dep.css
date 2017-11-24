@@ -1,0 +1,299 @@
+.red-text {
+    color: red;
+}
+.red {
+    text-align: center;
+    margin: 2px;
+    padding: 1px 2px;
+    color: white;
+    background-color: rgb(200, 0, 0);
+    border-radius: 5px;
+}
+.green {
+    text-align: center;
+    margin: 2px;
+    padding: 1px 2px;
+    color: white;
+    background-color: rgb(0, 200, 0);
+    border-radius: 5px;
+}
+.yellow {
+    text-align: center;
+    margin: 2px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+.blue {
+    text-align: center;
+    margin: 2px;
+    background-color: rgb(50, 100, 255);
+    color: white;
+    border-radius: 5px;
+}
+.pink {
+    text-align: center;
+    margin: 2px;
+    background-color: pink;
+    border-radius: 5px;
+}
+.grey {
+    text-align: center;
+    margin: 2px;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+.brown {
+    text-align: center;
+    margin: 2px;
+    background-color: rgb(128, 41, 0);
+    color: white;
+    border-radius: 5px;
+}
+.orange {
+    text-align: center;
+    margin: 2px;
+    background-color: #ff851b;
+    color: white;
+    border-radius: 5px;
+}
+.purple {
+    text-align: center;
+    margin: 2px;
+    background-color: #605ca8;
+    color: white;
+    border-radius: 5px;
+}
+.teal {
+    text-align: center;
+    margin: 2px;
+    background-color: #39cccc;
+    color: white;
+    border-radius: 5px;
+}
+.padding-td {
+    padding: 3px;
+}
+
+.tech-dep-difficulty table td,
+.tech-dep-difficulty table th {
+    vertical-align: middle;
+    text-align: center;
+}
+.tech-dep-difficulty table td input {
+    width: 60px;
+    padding-left: 5px;
+}
+.tech-dep-difficulty table td.difficulty {
+    width: 90px;
+    vertical-align: middle;
+}
+.tech-dep-difficulty table td.time {
+    width: 120px;
+}
+.tech-dep-difficulty table td.tz {
+    width: 85px;
+    vertical-align: middle;
+}
+.tech-dep-difficulty table td.culc_1 {
+    width: 85px;
+    vertical-align: middle;
+}
+.tech-dep-difficulty table td.culc_2 {
+    width: 85px;
+    vertical-align: middle;
+}
+.tech-dep-difficulty table td.plan,
+.tech-dep-difficulty table td.spec {
+    width: 115px;
+    vertical-align: middle;
+}
+.tech-dep-difficulty table td.culc_tech,
+.tech-dep-difficulty table td.model,
+.tech-dep-difficulty table td.draw,
+.tech-dep-difficulty table td.tech_map,
+.tech-dep-difficulty table td.materials,
+.tech-dep-difficulty table td.tools,
+.tech-dep-difficulty table td.project,
+.tech-dep-difficulty table td.passport {
+    width: 90px;
+    vertical-align: middle;
+}
+
+
+
+.tech-dep-project-search .box-header .buttons {
+    width: 175px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    margin-left: 10px;
+}
+
+.tech-dep-project-search .box-header .name-product {
+    width: 380px;
+}
+.tech-dep-project-search .box-header .number-project {
+    width: 172px;
+}
+.tech-dep-project-search .box-header .number-order {
+    width: 145px;
+}
+.tech-dep-project-search .box-body input[type="checkbox"] {
+    margin-top: 0;
+    vertical-align: -3px;
+}
+.tech-dep-project-search .box-body div#typeProject label,
+.tech-dep-project-search .box-body div#statusProject label,
+.tech-dep-project-search .box-body div#stagesProject label,
+.tech-dep-project-search .box-body div#priorityProject label,
+.tech-dep-project-search .box-body div#authorProject label,
+.tech-dep-project-search .box-body div#responsibleProject label,
+.tech-dep-project-search .box-body div#contractorProject label,
+.tech-dep-project-search .box-body div#approvedProject label,
+.tech-dep-project-search .box-body div#difficultyProject label,
+.tech-dep-project-search .box-body div#isArchive label {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.tech-dep-project-search .box-body>div:nth-child(1) {
+    min-width: 95px;
+    padding-right: 0;
+    padding-left: 5px;
+    height: 250px;
+}
+.tech-dep-project-search .box-body>div:nth-child(2) {
+    min-width: 110px;
+    padding-right: 0;
+    padding-left: 0px;
+    height: 250px;
+}
+.tech-dep-project-search .box-body>div:nth-child(3) {
+    min-width: 150px;
+    padding-right: 0;
+    padding-left: 0px;
+    height: 250px;
+}
+.tech-dep-project-search .box-body>div:nth-child(5),
+.tech-dep-project-search .box-body>div:nth-child(6),
+.tech-dep-project-search .box-body>div:nth-child(7),
+.tech-dep-project-search .box-body>div:nth-child(8) {
+    min-width: 105px;
+    padding-right: 0;
+    padding-left: 0px;
+    height: 250px;
+    overflow: auto;
+}
+.tech-dep-project-search .box-body>div:nth-child(4) {
+    min-width: 75px;
+    padding-right: 0;
+    padding-left: 0px;
+    height: 250px;
+    overflow: auto;
+}
+.tech-dep-project-search .box-body>div:nth-child(9) {
+    width: 75px;
+    padding-right: 0;
+    padding-left: 0px;
+    height: 250px;
+}
+.tech-dep-project-search .box-body>div:nth-child(10) {
+    min-width: 110px;
+    padding-right: 0;
+    padding-left: 0px;
+    height: 250px;
+}
+.tech-dep-project-search .box-body>div:nth-child(11) {
+    min-width: 90px;
+    padding-right: 0;
+    padding-left: 0px;
+    height: 250px;
+}
+.tech-dep-project-search .box-body>div:nth-child(10) div {
+    margin: 2px;    
+}
+.tech-dep-project-search .box-body>div:nth-child(10) input {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.tech-dep-project-search .box-body>div:nth-child(10) span {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tech-dep-project-index table tbody td:nth-child(1) {
+    min-width: 100px;
+}
+.tech-dep-project-index table tbody td:nth-child(2) {
+    min-width: 50px;
+}
+.tech-dep-project-index table tbody td:nth-child(3) {
+    min-width: 150px;
+}
+.tech-dep-project-index table tbody td:nth-child(4) {
+    min-width: 45px;
+}
+.tech-dep-project-index table tbody td:nth-child(5) {
+    min-width: 105px;
+}
+.tech-dep-project-index table tbody td:nth-child(6) {
+    min-width: 65px;
+}
+.tech-dep-project-index table tbody td:nth-child(7) {
+    min-width: 80px;
+}
+.tech-dep-project-index table tbody td:nth-child(8) {
+    min-width: 150px;
+}
+.tech-dep-project-index table tbody td:nth-child(9) {
+    min-width: 510px;
+}
+.tech-dep-project-index table tbody td:nth-child(9) table tbody td {
+    min-width: 100px;
+    height: 100px;
+}
+.tech-dep-project-index .see-comment {
+    color: blue;
+}
+.tech-dep-project-index .see-comment:hover {
+    cursor: pointer;
+}
+
+.tech-dep-project-form .field-techdepproject-goodname label.control-label:after,
+.tech-dep-project-form .field-techdepproject-goodid label.control-label:after,
+.changes label.control-label:after {
+    content: " *";
+    color: red;
+}
+.tech-dep-project-form .buttons button,
+.tech-dep-project-form .buttons a,
+.tech-dep-project-stage .buttons button,
+.tech-dep-project-stage .buttons a,
+.tech-dep-project-planning .buttons button,
+.tech-dep-project-planning .buttons a {
+    width: 130px;
+}
+
+.tech-dep-project-planning #stagesProject label {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.tech-dep-project-planning #stagesProject input[type="checkbox"] {
+    vertical-align: -3px;
+}
+.tech-dep-project-planning .contractor select {
+    width: 100%;
+    height: 25px;
+    padding: 0px 12px;
+    line-height: 1.5;
+    font-size: 14px;
+    border-color: #d2d6de;
+    margin-bottom: 5px;
+}
+.tech-dep-project-planning input[type="number"] {
+    width: 100%;
+    padding-left: 3px;
+}
+
+.tech-dep-project-reference .glyphicon:hover {
+    cursor: pointer;
+}

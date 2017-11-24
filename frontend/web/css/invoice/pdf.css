@@ -1,0 +1,142 @@
+* {
+    font-size: 8pt;
+    font-family: 'Times New Roman';
+}
+
+html, body {
+    height: 297mm;
+    width: 210mm;
+    margin-left: 20mm;
+    margin-right: 20mm;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0px;
+}
+
+table td {
+    font-size: 8pt;
+}
+
+img.logo {
+    width: 68.6mm;
+    height: 21.2mm;
+    margin-bottom: 10px;
+}
+
+.indent {
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+}
+
+h2, h3 {
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+table.goods {
+    border: 1px solid black;
+}
+
+table.goods th, table.goods td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table.goods td.good-name {
+    text-align: left;
+}
+
+table.goods {
+    margin-bottom: 0;
+}
+table.goods-total {
+    margin: 0;
+}
+
+table.goods-total td {
+    text-align: right;
+}
+
+tr.position td {
+    text-align: center;
+    vertical-align: bottom;
+    border-bottom: 1px solid black;
+    height: 20px;
+}
+
+tr.position td.post {
+    border: none;
+    text-align: left;
+    font-weight: normal;
+}
+
+tr.legend td {
+    font-size: 8pt;
+    text-align: center;
+}
+
+.signatures {
+    position: relative;
+}
+
+table.signatures tr.top {
+    height: 10px;
+}
+
+.stamp {
+    float: right;
+    z-index: -1;
+    margin-right: 300px;
+    margin-top: -10px;
+    height: 40mm;
+}
+
+.stamp-wide {
+    float: right;
+    z-index: -1;
+    margin-right: 220px;
+    margin-top: -10px;
+    height: 40mm;
+}
+
+.sign-image-container {
+    position: relative;
+}
+
+.sign-image {
+    float: left;
+    margin-left: 30px;
+    margin-top: -30px;
+    margin-bottom: -7px;
+    height: 10mm;
+    z-index: -1;
+}
+
+.promo {
+    margin-top: 30px;
+}
+
+td.space, tr.position td.space {
+    border: none;
+    font-weight: normal;
+}
+
+.website {
+    color: #0000EE;
+    text-decoration: underline;
+}
+
+table.pay-data, table.pay-data td {
+    border: 1px solid black;
+}
+
+tr.delivery td, tr.delivery td b {
+    font-size: 9pt;
+}
